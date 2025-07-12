@@ -51,7 +51,7 @@ export const Sidebar = () => {
       {/* Sidebar */}
       <aside className={cn(
         "fixed left-0 top-0 z-50 h-full bg-card border-r border-border/50 transition-all duration-300 lg:static lg:translate-x-0",
-        collapsed ? "-translate-x-full lg:w-16" : "w-64",
+        collapsed ? "-translate-x-full lg:w-16 xl:w-20" : "w-64 xl:w-72",
         "flex flex-col"
       )}>
         {/* Header da Sidebar */}
